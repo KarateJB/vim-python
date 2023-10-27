@@ -34,7 +34,7 @@ USAGE                                        *PythonUsage*
 ----------------------------------------------------------
 MAPPINGS                                  *PythonMappings*
 
-* `<leader>r`            Execute current Python file. Same as `:RunPython`.
+* `<leader>r`          Execute current Python file. Same as `:RunPython`.
 * `[[`, `]]`             Jump to previous/next section by customizing the original behavior of them.
 * `][`, `[]`             Jump to previous/next section by customizing the original behavior of them.
 
