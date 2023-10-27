@@ -1,4 +1,4 @@
-vim-python.txt* a Vim plugin for Python programming
+*vim-python.txt* a Vim plugin for Python programming
 
    ___        _   _                  ~
   / _ \__  __| |_| |     ___  _ __   ~
