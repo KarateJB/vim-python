@@ -1,0 +1,63 @@
+vim-python.txt* a Vim plugin for Python programming
+
+   ___        _   _                  ~
+  / _ \__  __| |_| |     ___  _ __   ~
+ / /_)/\ \/ /| __|  --- / _ \| '_ \  ~ 
+/ ___/  \  / | |_| | | | (_) | | | | ~
+\/      /_/   \__|_| |_|\___/|_| |_| ~
+
+ A Vim plugin for Python programming.
+             Enjoy it!
+
+
+----------------------------------------------------------
+CONTENTS                                  *PythonContents*
+
+    1. Introduction .................... |PythonIntroduction|
+    2. Usage ........................... |PythonUsage|
+    3. Mappings ........................ |PythonMappings|
+    4. Configuration ................... |PythonConfiguration|
+    5. License ......................... |PythonLicense|
+    6. About ........................... |PythonAbout|
+
+----------------------------------------------------------
+INTRODUCTION                          *PythonIntroduction*
+
+This plugin provides syntax highlighting, section movement and hotkeys to run Python code.
+
+----------------------------------------------------------
+USAGE                                        *PythonUsage*
+
+:RunPython               Execute current Python file. The hotkey is `<leader>r`.
+
+
+----------------------------------------------------------
+MAPPINGS                                  *PythonMappings*
+
+* `<leader>r`            Execute current Python file. Same as `:RunPython`.
+* `[[`, `]]`             Jump to previous/next section by customizing the original behavior of them.
+* `][`, `[]`             Jump to previous/next section by customizing the original behavior of them.
+
+
+----------------------------------------------------------
+CONFIGURATION                        *PythonConfiguration*
+
+* enable showing execution result in a new window (1: enable, 0: disable)
+  let g:show_result_on_buffer = 1
+
+
+----------------------------------------------------------
+LICENSE                                    *PythonLicense*
+
+Author:  KarateJB <https://github.com/KarateJB>
+License: Same terms as Vim itself.
+
+----------------------------------------------------------
+ABOUT                                         *PythonAbout*
+
+Grab the latest version or report a bug on GitHub, contributions and pull requests are welcome.
+
+https://github.com/KarateJB/vim-python
+
+ vim:tw=78:et:ft=help:norl:
+
